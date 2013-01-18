@@ -12,6 +12,7 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'guard-rspec', '1.2.1'
 	gem 'wdm', '~> 0.0.3'
+	gem 'factory_girl_rails', '4.1.0'
 end
 group :development do
   gem 'annotate', '2.5.0'
