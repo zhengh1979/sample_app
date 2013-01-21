@@ -13,6 +13,8 @@ group :development, :test do
 	gem 'guard-rspec', '1.2.1'
 	gem 'wdm', '~> 0.0.3'
 	gem 'factory_girl_rails', '4.1.0'
+	gem 'cucumber-rails', '1.2.1', :require => false
+    gem 'database_cleaner', '0.7.0'
 end
 group :development do
   gem 'annotate', '2.5.0'
